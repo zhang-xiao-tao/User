@@ -31,4 +31,13 @@ public class User {
     public void setSex(String sex) {
         this.sex = sex;
     }
+
+    public User(Long id, String name, String sex) {
+        this.id = id;
+        this.name = name;
+        this.sex = sex;
+    }
+
+    public User() {
+    }
 }
